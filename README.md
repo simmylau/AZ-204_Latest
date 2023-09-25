@@ -64,14 +64,14 @@ Connect to and consume Azure services and third-party services (15–20%)
 
   ## Connect to and consume Azure services and third-party services (15–20%)
 ### Implement API Management
--Create an Azure API Management instance
--Create and document APIs
--Configure access to APIs
--Implement policies for APIs
+- Create an Azure API Management instance
+- Create and document APIs
+- Configure access to APIs
+- Implement policies for APIs
 
 ### Develop event-based solutions
--Implement solutions that use Azure Event Grid
--Implement solutions that use Azure Event Hub
+- Implement solutions that use Azure Event Grid
+- Implement solutions that use Azure Event Hub
 
 ### Develop message-based solutions
 - Implement solutions that use Azure Service Bus
