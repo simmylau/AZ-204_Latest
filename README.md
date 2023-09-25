@@ -77,4 +77,4 @@ Connect to and consume Azure services and third-party services (15–20%)
 - Implement solutions that use Azure Service Bus
 - Implement solutions that use Azure Queue Storage queues
 
-  (Skills measured Azure 204) [https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#skills-measured-as-of-october-18-2023]
+  [Skills measured Azure 204]([https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#skills-measured-as-of-october-18-2023)
