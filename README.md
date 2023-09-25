@@ -11,7 +11,7 @@ Connect to and consume Azure services and third-party services (15–20%)
 
 ### Implement containerized solutions
 - Create and manage container images for solutions
-- blish an image to Azure Container Registry
+- Publish an image to Azure Container Registry
 - Run containers by using Azure Container Instance
 - Create solutions by using Azure Container Apps
 
