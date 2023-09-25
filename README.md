@@ -15,7 +15,7 @@ Connect to and consume Azure services and third-party services (15–20%)
 - Run containers by using Azure Container Instance
 - Create solutions by using Azure Container Apps
 
-## Implement Azure App Service Web Apps
+### Implement Azure App Service Web Apps
 - Create an Azure App Service Web App
 - Enable diagnostics logging
 - Deploy code to a web app
@@ -39,7 +39,7 @@ Connect to and consume Azure services and third-party services (15–20%)
 - Implement storage policies and data lifecycle management
 - Implement static site hosting
 
-  ## Implement Azure security (20–25%)
+## Implement Azure security (20–25%)
 ### Implement user authentication and authorization
 - Authenticate and authorize users by using the Microsoft Identity platform
 - Authenticate and authorize users and apps by using Microsoft Entra ID
