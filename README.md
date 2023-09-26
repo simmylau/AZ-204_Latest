@@ -1,5 +1,7 @@
 # AZ-204_Latest
 
+Goal study and prepare for the AZ-204 exam. Exam will be end of November so need to make sure I am studying the latest course material and practicals for 2023.
+
 [Skills measured Azure 204](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#skills-measured-as-of-october-18-2023)
 
 ## Skills at a glance
