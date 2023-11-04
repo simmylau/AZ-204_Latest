@@ -29,6 +29,8 @@ It is possible to share App service Plan across multiple web apps however, for i
 
 Free and shared tiers cannot be scaled they're based on CPU minutes. Other tiers can scale to multiple instances. Web apps support nearly instant scaling and autoscaling.
 
+Web apps can be used with Azure Functions and to create web app, RESTful API, mobile backend.
+
 ## Create an Azure App Service Web App (2)
 
 ### Scaling
@@ -124,24 +126,30 @@ Configure multiple app settings an example following format that illustrates set
 
 `
 
-### Deploy to App Service
+## Deploy to App Service
 
-App service supports automated (Azure DevOps, GitHub, BitBucket) and manual deployments (Git, CLI, ZipDeplot, FTP/S).
+App service supports automated (Azure DevOps, GitHub, BitBucket) and manual deployments (Git, CLI, ZipDeploy, FTP/S).
+
+CLI: You can use `az webapp up` which will package and deploy a web app - even if you haven't created one yet.
+ZipDeploy: Use `curl` or similar HTTP utility to send a zip of the application files to the app service.
+
 Use deployments slots when deploying a new production build. <- Best practice>
+
+Staging slots: standard and higher tiers of App service!
 
 ## Configure settings in App Service (1)
 
 |Setting|Description|
 |-------|-----------|
 |Stack settings| The software stack to run the app, including language and SDK versions.|
-|Platform settings| Configure settings for the hosting platform: - Bitness (32/36 - WebSocket Protocol - Always On - Managed pipeline version - HTTP version - ARR affinity |
+|Platform settings| Configure settings for the hosting platform: - Bitness (32/36 - WebSocket Protocol - Always On - Managed pipeline version - HTTP version - ARR affinity) |
 | Debugging| Enable remote debugging for ASP.NET, ASP.NET Core, or Node.js apps.|
 | Incoming client certificates| Require client certificates in mutual authentication. TLS mutual authentication is used to restrict access to your app by enabling different types of authentication for it.|
 
 Platform settings, enabling the webSocket protocol is used to support things like signal R or socket IO.
 Always on is required for continuos or scheduled web jobs to function.
 
-## Configure settings in App Service (2): Configuring SSL
+### Configure settings in App Service (2): Configuring SSL
 
 To configure SSL, you can:
 
